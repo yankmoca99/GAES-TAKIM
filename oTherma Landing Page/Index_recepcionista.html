@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Recepcionista</title>
+	<link rel="stylesheet" href="CSS/estilos_recepcionista.css"> <!-- Hago el link con los estilos -->
+	<link rel="shortcute icon" href="IMG/favicon.png"> <!-- Hago el link con el favicon del sistema -->
+	<link rel="stylesheet" href="FONTS/MaterialIcons/style.css">
+<body> 
+	<header> <!-- Cabecera -->	
+		<div class="contenedor" name="inicio">
+				<figure class="logo">
+				    <a href="Index.html"><img src="IMG/logotipoConDegrade.png" alt="" class="logodegrade" href="#inicio"></a>
+					
+				</figure>
+				<figure class="nombre">
+				<a href="Index.html"><img src="IMG/nombreConDegrade.png" class="nombredegrade" href="#inicio"></a>
+            </figure>
+            <nav class="navinferior">
+               <a href=""><span class="icon-person_outline"></span> Usuario</a>
+               <a href="Index.html"><span class="icon-input"></span> Cerrar sesión</a>
+            </nav>
+		</div>		
+	</header> <!-- Fin cabecera -->       
+    
+    
+     <div class="medio">
+        <div class="asideright">
+            <form action="">
+                <label for="">Nombre*</label>
+                <input class="input" type="text" name="nombre" placeholder="Primer Nombre">
+                <input class="input" type="text" name="nombre" placeholder="Segundo Nombre">
+                <label for="">Correo Electronico*</label>
+                <input class="input" type="email" name="email" placeholder="alguien@correo.com">
+                <label for="">Celular*</label>
+                <input class="input" type="text" name="nelefono" placeholder="(000)000 0000">
+                <label for="" class="lab1">Fecha de ingreso*</label>
+                <input class="ingreso" type="date" name="fecha" placeholder="Llegada">    
+                <label for="" class="lab2">Fecha de salida*</label>
+                <input class="salida" type="date" name="fecha" placeholder="Llegada">    
+                <div class="adultos">
+                    <label for="">Adultos*</label>
+                    <select name="" id="">
+                        <option value="0">0</option>
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="4">4</option>
+                        <option value="5">5</option>
+                        <option value="6">6+</option>
+                    </select>    
+                </div>
+                
+                <div class="ninos">
+                    <label for="">Niños</label>
+                    <select name="" id="">
+                        <option value="0">0</option>
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="4">4</option>
+                        <option value="5">5</option>
+                        <option value="6">6+</option>
+                    </select>    
+                </div>
+                <label for="">Observaciones</label>
+                <textarea class="texto" name="mensaje" placeholder="Escribe aqui, Peticion, Queja o Recurso"></textarea>
+                <label for=""><imput type="checkbox" value="Aceptar terminos y condiciones de Privacidad y Políticas de Tratamiento de Datos"></imput>Aceptar terminos y condiciones de Privacidad y Políticas de Tratamiento de Datos</label>
+                <input type="button" value="Reservar" id="boton">
+            </form>
+        </div>
+          <nav class="asideleft">
+              <a href="#" id="reserva"><span class="icon-library_books"></span> Reserva</a>
+		      <a href="#" id="consulta"><span class="icon-search"></span> Consulta</a>
+		      <a href="#" id="usuario"><span class="icon-people"></span> Usuarios</a>
+		  </nav>
+      </div>
+      
+      
+     <footer>
+       <p>Todos los derechos reservados &copy;2017 Desarrolado por <a href="#">SICOT</a></p>
+        <a class="icon-facebook-circled" href="https://www.facebook.com/termaleslosvolcanes/" target="_blank"></a>
+        <a class="icon-twitter-circled" href=""></a>
+        <a class="icon-gplus-circled" href="https://plus.google.com/114403856696328169839" target="_blank"></a>
+	</footer>
+      
+</body>
+</html>

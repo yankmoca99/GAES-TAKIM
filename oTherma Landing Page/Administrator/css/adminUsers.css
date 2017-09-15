@@ -1,0 +1,241 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Roboto"
+}
+@font-face {
+    font-family:"Roboto";
+    src:url(../fonts/Roboto-L.ttf);
+}
+.navFix {
+    width: 100%;
+    height: 93px;
+    margin: auto;
+    background-color: #000;
+    position: fixed;
+}
+.users {
+  border-left: 2px;
+  border color: #fff;
+}
+#logOut {
+    position: absolute;
+    right: 20px;
+    top: 57px;
+}
+form input {
+	position: absolute;
+	right: 250px;
+	top: 50px;
+}
+button {
+    background-color: #000;
+    color: #fff;
+    padding: 10px;
+    border: 2px #fff;
+    cursor: pointer;
+}
+button:hover {
+    background-color: rgba(200,255,255,0.4);
+    color: #fff;
+    /*border-bottom: solid aqua;*/
+    transition: 0.6s;
+}
+#container {
+    width: 100%;
+    height: 1700px;    
+    background-color: #fff;
+}
+header {
+    width: 100%;
+    height: 15%;
+    border-bottom: 2px solid aqua;
+}
+header h1 {
+    position: absolute;
+    top: 200px;
+    left: 30px;
+}
+.cont {
+  position: fixed;
+  left: 150px;
+  top: 170px;
+}
+.table {
+  border-collapse: collapse;
+  height: 320px;
+  margin: auto;
+  margin-top: 20px;
+  max-width: 720px;
+  padding:5px;
+  width: 100%;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+}
+.tableHover {
+    cursor: pointer;
+}
+th {
+  color:#D5DDE5;;
+  background:#1b1e24;
+  border-bottom:4px solid #9ea7af;
+  border-right: 1px solid #343a45;
+  font-size:23px;
+  font-weight: 100;
+  padding:24px;
+  text-align:left;
+  text-shadow: 0 1px 1px rgba(0, 0, 0, 0.1);
+  vertical-align:middle;
+}
+
+tr {
+  border-top: 1px solid #C1C3D1;
+  border-bottom-: 1px solid #C1C3D1;
+  color:#666B85;
+  font-size:16px;
+  font-weight:normal;
+  text-shadow: 0 1px 1px rgba(256, 256, 256, 0.1);
+}
+ 
+tr:hover td {
+  background:#4E5066;
+  color:#FFFFFF;
+  border-top: 1px solid #22262e;
+}
+td {
+  background:#FFFFFF;
+  padding:20px;
+  text-align:left;
+  vertical-align:middle;
+  font-weight:300;
+  font-size:18px;
+  text-shadow: -1px -1px 1px rgba(0, 0, 0, 0.1);
+  border-right: 1px solid #C1C3D1;
+}
+th.left {
+  text-align: left;
+}
+td.left {
+  text-align: left;
+}
+footer {
+	width: 100%;
+	height: 93px;
+	background-color: #000;
+}
+.bookIcon {
+  color: #000;
+}
+.bookIcon:hover {
+  color: aqua;
+  transition: 0.6s;
+  transform: rotate(5deg);
+}
+.editIcon {
+  color: #000;
+}
+.editIcon:hover {
+  color: aqua;
+  transition: 0.6s;
+  transform: rotate(-5deg);
+}
+.deleteIcon {
+  color: #000;
+}
+.deleteIcon:hover {
+  color: aqua;
+  transition: 0.6s;
+}
+a.open{
+  background-color: #000000;
+  border-radius: 5px;
+  color: #fff;
+  font-size: 1.5em;
+  margin: 20px;
+  padding: 10px 20px;
+  position: absolute;
+  text-decoration: none;
+  text-shadow: 2px 2px 0px #000;
+}
+
+a.open:hover{
+  background-color: #aaa;
+}
+
+section.modalDialog{
+  background-color: rgba(0,0,0,.5);
+  opacity: 0;
+  z-index: -2;
+  width: 600px;
+  height: 600px;
+}
+
+section.modalDialog:target{
+  opacity: 1;
+}
+
+a.close{
+  background-color: #000000;
+  border-radius: 5px;
+  color: #fff;
+  position: absolute;
+  right: 5px;
+  top:5px;
+  text-align: center;
+  text-decoration: none;
+  width: 28px;
+}
+
+a.close:hover {
+  background-color: #f00;
+  transition: 0.6s;
+}
+
+section.modal{
+  background-color: #111;
+  box-shadow: 0px 0px 10px #000;
+  border-radius: 5px;
+  color: #fff;
+  margin: 10% auto;
+  padding: 20px;
+  position: relative;
+  width: 400px;
+  height: 600px;
+  align-items: center;
+}
+
+h2{
+  color: #fff;
+  font-size: 2em;
+  margin-bottom: 10px;
+}
+
+.name {
+  position: relative;
+  top: 0;
+  left: 190px;
+}
+.email {
+  position: relative;
+  top: 100px;
+  left: 190px;
+}
+.date {
+  position: relative;
+  top: 200px;
+  left: 190px;
+  color: #fff;
+}
+.password{
+  position: relative;
+  top: 300px;
+  left: 190px;
+}
+.submit{
+  position: relative;
+  top: 400px;
+  left: 190px;
+}
+input {
+  width: 250px;
+}

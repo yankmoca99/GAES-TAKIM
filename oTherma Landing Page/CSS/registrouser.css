@@ -1,0 +1,74 @@
+*{
+	margin: 0;
+	padding: 0;
+    box-sizing: border-box;
+}
+@font-face{
+	font-family: "poppins";
+	src:url(../FONTS/Poppins/Poppins-Light.ttf);
+}
+@font-face{
+	font-family: "lobster";
+	src:url(../FONTS/Lobster/Lobster-Regular.ttf);
+}
+@font-face {
+  	font-family: 'FontAwesome';
+  	src: url('../font/fontawesome-webfont.eot?v=3.0.1');
+  	src: url('../font/fontawesome-webfont.eot?#iefix&v=3.0.1') format('embedded-opentype'),
+    url('../font/fontawesome-webfont.woff?v=3v=3.0.1') format('woff'),
+    url('../font/fontawesome-webfont.ttf?v=3.0.1') format('truetype');
+  	font-weight: normal;
+  	font-style: normal;
+}
+body{
+	/*background: #bebcc0;*/
+	font-family: "poppins";
+    box-sizing: border-box;
+    background-color: #e8e8e8;
+    
+}
+form{
+    padding: 20px;
+    margin: auto;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    width: 60%;
+    height: auto;
+}
+input, textarea{
+    width: 100%;
+    margin-bottom: 25px;
+    font-size: 18px;
+    padding: 5px;
+    border-radius: 3px;
+    border: none; 
+    font-family: "poppins";
+}
+
+.ingreso, .salida{
+    display: block;
+    width: 100%;
+    height: auto;
+}
+.lab1,.lab2{
+    display: block;
+    width: 50%;
+    height: auto;
+}
+.adultos, .ninos{
+    padding: 10px;
+    /*margin-bottom: 5px;*/
+}
+.asideright select{
+    font-family: "poppins";
+    display: block;
+}
+#boton{
+    background-color: #3c918c;
+    height: 40px;
+}
+#boton:hover{
+    background-color: #fff;
+    border: 2px solid #3c918c;
+    transition: 0.3s;
+}

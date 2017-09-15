@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="css/adminUsers.css">
+    <link rel="stylesheet" href="css/font-awesome.min.css">
+    <title>Administrator</title>
+</head>
+<body>
+  <nav class="navFix">
+        <img src="images/Logt.png" height="80" width="auto">
+        <button id="myProfile">Mi perfil</button>
+        <button id="users">Usuarios</button>
+        <button id="reports">Informes</button>
+        <form>
+        	<input type="text" name="Search" placeholder="Search">
+        	<input type="submit" value="Buscar">
+        </form>
+
+        <button id="logOut">Cerrar sesión</button>
+  </nav>
+  <div id="container">
+    <header>
+      <h1>Usuarios
+      </h1>
+      <div class="cont">
+            <a href="#openmodal" class="open">+</a>
+            <section id="openmodal" class="modalDialog">
+                <section class="modal">
+                    <a href="#close" class="close"> X </a>
+                    <h2> Registro de usuario</h2>
+                    <form>
+                        <div class="name">
+                        <input type="text" placeholder="Ingresa el nombre">
+                        </div>
+                        <div class="email">Correo Electronico
+                        <input type="email" placeholder="aprendizsena@example.com">
+                        </div>
+                        <div class="date">Fecha de nacimiento
+                        <input type="date">
+                        </div>
+                        <div class="password">Contraseña
+                        <input type="password" placeholder="Ingresa una contraseña">
+                        </div>
+                        <div class="submit">
+                        <input type="submit" value="Registrar usuario">
+                        </div>
+                    </form>
+                </section>
+            </section>
+        </div>
+    </header>
+    
+    <table class="table">
+      <thead>
+    <tr>
+    <th class="left">Cédula</th>
+    <th class="left">Nombre</th>
+    <th class="left">Estado</th>
+    <th class="left">Acción</th>
+    </tr>
+    </thead>
+    <tbody class="tableHover">
+    <tr>
+    <td class="left">1014268955</td>
+    <td class="left">Laura Ximena Ortiz Valencia</td>
+    <td class="left">Activo</td>
+    <td class="left">
+        <div class="bookIcon"> 
+        <span class="fa fa-book fa-2x"></span>
+        </div>
+        <div class="editIcon"> 
+        <span class="fa fa-pencil fa-2x"></span>
+        </div>
+        <div class="deleteIcon"> 
+        <span class="fa fa-trash fa-2x"></span>
+        </div>
+    </td>
+    </tr>
+    <tr>
+    <td class="left">1015698903</td>
+    <td class="left">Jhon Carlo Moreno Carranza</td>
+    <td class="left">Inactivo</td>
+    <td class="left">
+        <div class="bookIcon"> 
+        <span class="fa fa-book fa-2x"></span>
+        </div>
+        <div class="editIcon"> 
+        <span class="fa fa-pencil fa-2x"></span>
+        </div>
+        <div class="deleteIcon"> 
+        <span class="fa fa-trash fa-2x"></span>
+        </div>
+    </td>
+    </tr>
+    <tr>
+    <td class="left">1006669631</td>
+    <td class="left">Jonathan Fábian Rojas Garzón</td>
+    <td class="left">Bloqueado</td>
+    <td class="left">
+        <div class="bookIcon"> 
+        <span class="fa fa-book fa-2x"></span>
+        </div>
+        <div class="editIcon"> 
+        <span class="fa fa-pencil fa-2x"></span>
+        </div>
+        <div class="deleteIcon"> 
+        <span class="fa fa-trash fa-2x"></span>
+        </div>
+    </td>
+    </tr>
+    <tr>
+    <td class="left">2569856</td>
+    <td class="left">José Néstor Pékerman Krimen</td>
+    <td class="left">Archivado</td>
+    <td class="left">
+        <div class="bookIcon"> 
+        <span class="fa fa-book fa-2x"></span>
+        </div>
+        <div class="editIcon"> 
+        <span class="fa fa-pencil fa-2x"></span>
+        </div>
+        <div class="deleteIcon"> 
+        <span class="fa fa-trash fa-2x"></span>
+        </div>
+    </td>
+    </tr>
+    <tr>
+    <td class="left">2065952</td>
+    <td class="left">Radamel Falcao García Zárate</td>
+    <td class="left">Activo</td>
+    <td class="left">
+        <div class="bookIcon"> 
+        <span class="fa fa-book fa-2x"></span>
+        </div>
+        <div class="editIcon"> 
+        <span class="fa fa-pencil fa-2x"></span>
+        </div>
+        <div class="deleteIcon"> 
+        <span class="fa fa-trash fa-2x"></span>
+        </div>
+    </td>
+    </tr>
+    <tr>
+    <td class="left">1015456823</td>
+    <td class="left">Natalia Vargas Valderrama</td>
+    <td class="left">Inactivo</td>
+    <td class="left">
+        <div class="bookIcon"> 
+        <span class="fa fa-book fa-2x"></span>
+        </div>
+        <div class="editIcon"> 
+        <span class="fa fa-pencil fa-2x"></span>
+        </div>
+        <div class="deleteIcon"> 
+        <span class="fa fa-trash fa-2x"></span>
+        </div>
+    </td>
+    </tr>
+    <tr>
+    <td class="left">1000365874</td>
+    <td class="left">Wilson Aguirre Córdoba</td>
+    <td class="left">Activo</td>
+    <td class="left">
+        <div class="bookIcon"> 
+        <span class="fa fa-book fa-2x"></span>
+        </div>
+        <div class="editIcon"> 
+        <span class="fa fa-pencil fa-2x"></span>
+        </div>
+        <div class="deleteIcon"> 
+        <span class="fa fa-trash fa-2x"></span>
+        </div>
+    </td>
+    </tr>
+    <tr>
+    <td class="left">1011248751</td>
+    <td class="left">Edwin Cuadrado Echeverría</td>
+    <td class="left">Inactivo</td>
+    <td class="left">
+        <div class="bookIcon"> 
+        <span class="fa fa-book fa-2x"></span>
+        </div>
+        <div class="editIcon"> 
+        <span class="fa fa-pencil fa-2x"></span>
+        </div>
+        <div class="deleteIcon"> 
+        <span class="fa fa-trash fa-2x"></span>
+        </div>
+    </td>
+    </tr>
+    <!-- <tr>
+    <td class="left">2659831</td>
+    <td class="left">Ana Godoy Gónzalez</td>
+    <td class="left">Bloqueado</td>
+    <td class="left">
+        <div class="bookIcon"> 
+        <span class="fa fa-book fa-2x"></span>
+        </div>
+        <div class="editIcon"> 
+        <span class="fa fa-pencil fa-2x"></span>
+        </div>
+        <div class="deleteIcon"> 
+        <span class="fa fa-trash fa-2x"></span>
+        </div>
+    </td>
+    </tr>
+    <tr>
+    <td class="left">1019888630</td>
+    <td class="left">Lina Gómez Lara</td>
+    <td class="left">Activo</td>
+    <td class="left">
+        <div class="bookIcon"> 
+        <span class="fa fa-book fa-2x"></span>
+        </div>
+        <div class="editIcon"> 
+        <span class="fa fa-pencil fa-2x"></span>
+        </div>
+        <div class="deleteIcon"> 
+        <span class="fa fa-trash fa-2x"></span>
+        </div> -->
+    </td>
+    </tr>
+    </tbody>
+    </table>
+
+  </div>
+    <footer></footer>
+</body>
+</html>

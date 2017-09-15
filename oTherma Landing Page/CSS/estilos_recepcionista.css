@@ -1,0 +1,218 @@
+/*Modificaciones Generales*/
+*{
+	margin: 0;
+	padding: 0;
+    box-sizing: border-box;
+}
+@font-face{
+	font-family: "poppins";
+	src:url(../FONTS/Poppins/Poppins-Light.ttf);
+}
+@font-face{
+	font-family: "lobster";
+	src:url(../FONTS/Lobster/Lobster-Regular.ttf);
+}
+@font-face {
+  	font-family: 'FontAwesome';
+  	src: url('../font/fontawesome-webfont.eot?v=3.0.1');
+  	src: url('../font/fontawesome-webfont.eot?#iefix&v=3.0.1') format('embedded-opentype'),
+    url('../font/fontawesome-webfont.woff?v=3v=3.0.1') format('woff'),
+    url('../font/fontawesome-webfont.ttf?v=3.0.1') format('truetype');
+  	font-weight: normal;
+  	font-style: normal;
+}
+body{
+	/*background: #bebcc0;*/
+	font-family: "poppins";
+    box-sizing: border-box;
+    background-color: #fff;
+    
+}
+
+header{
+	width: 95%;
+	margin: auto;
+    background-color: rgba(0,0,0,.85);
+}
+.navinferior{
+    background: rgba(0,255,255,.3);
+    width: 100%;
+    height: auto;
+    margin: auto;
+    overflow: hidden;
+    list-style: none;
+}
+.navinferior  a{
+    display: inline;
+    text-decoration: none;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+    cursor: pointer;
+    float: right;
+    background: rgba(0,0,0,.3);
+    border-left: 1px solid #fff;
+}
+
+
+.navinferior a:hover{
+    background: #555;
+    transition-duration: 0.7s;
+}
+
+
+
+/*Contenedor*/
+.contenedor{
+    width: 100%;
+    height: 100%;
+    margin: auto;
+}
+.logo{
+    display: inline;
+    width: 100%;
+    height: 100%;
+    margin: auto;
+}
+.logodegrade{
+	width: 60px;
+	margin: 10px;
+}
+.nombre{
+    display: inline;
+    width: 100%;
+    height: 100%;
+}
+.nombredegrade{
+	width: 150px;
+    margin: 20px;
+}
+header  .navsuperior{
+    display: flex;
+    justify-content: center;
+    background-color: #3c918c;
+}
+
+header  .navsuperior  a{
+    display: table;
+    text-decoration: none;
+    color: #fff;
+    float: left;
+    text-align: center;
+    padding: 5px;
+    cursor: pointer;
+    margin: 10px 5px 10px 5px;
+    box-sizing: border-box;
+}
+
+header .navsuperior a:hover{
+    background: rgba(0,255,255,.3);
+    transition-duration: 0.7s;
+}
+/*Fin header*/
+/*Inicio main*/
+.medio{
+    width: 95%;
+	margin: auto;
+    height: auto;
+}
+.asideleft{
+    width: 20%;
+    height: 100%;
+    
+    background-color: #fff;
+}
+.asideleft{
+    width: 20%;
+    height: 900px;
+    
+    background: rgb(60, 145, 140);
+}                        
+.asideleft a{
+    display: block;
+    color: #fff;
+    text-decoration: none;
+    padding: 5px;
+    border-bottom: 1px solid rgba(255,255,255,.3);
+}                        
+.asideleft a:hover {
+    background: rgba(0,255,255,.3);
+}
+#reserva{
+    border-left: 3px solid #fff;
+}
+.asideright{
+    float: right;
+    background-color: #fff;
+    width: 80%;
+    height: auto;
+    padding: 20px;
+}
+form{
+    background-color: #e8e8e8;
+    padding: 20px;
+    margin: auto;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    width: 60%;
+    height: auto;
+}
+.imput{
+    border: 1px solid #000;
+}
+input, textarea{
+    width: 100%;
+    margin-bottom: 25px;
+    font-size: 18px;
+    padding: 5px;
+    border-radius: 3px;
+    border: none; 
+    font-family: "poppins";
+}
+
+.ingreso, .salida{
+    display: block;
+    width: 100%;
+    height: auto;
+}
+.lab1,.lab2{
+    display: block;
+    width: 50%;
+    height: auto;
+}
+.adultos, .ninos{
+    padding: 10px;
+    /*margin-bottom: 5px;*/
+}
+.asideright select{
+    font-family: "poppins";
+    display: block;
+}
+#boton{
+    background-color: #3c918c;
+    height: 40px;
+}
+#boton:hover{
+    background-color: #fff;
+    border: 2px solid #3c918c;
+    transition: 0.3s;
+}
+
+/*Fin main*/
+/*Inicio footer*/
+footer{
+    width: 95%;
+	margin: auto;
+	height: auto;
+	background-color: #e8e8e8;
+	padding: 10px;
+	text-align: center;
+    border-top: 5px solid #000;
+}
+
+footer .icon-facebook-circled, .icon-twitter-circled, .icon-gplus-circled {
+    font-size: 30px;
+    color: #000;
+    text-decoration: none;
+}
+/* fin footer */
