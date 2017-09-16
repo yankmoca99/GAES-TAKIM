@@ -30,7 +30,7 @@ body{
 }
 
 header{
-	width: 95%;
+	width: 100%;
 	margin: auto;
     background-color: rgba(0,0,0,.85);
 }
@@ -112,9 +112,9 @@ header .navsuperior a:hover{
 /*Fin header*/
 /*Inicio main*/
 .medio{
-    width: 95%;
+    width: 100%;
+    height: 950px;
 	margin: auto;
-    height: auto;
 }
 .asideleft{
     width: 20%;
@@ -124,7 +124,7 @@ header .navsuperior a:hover{
 }
 .asideleft{
     width: 20%;
-    height: 900px;
+    height: 100%;
     
     background: rgb(60, 145, 140);
 }                        
@@ -145,7 +145,7 @@ header .navsuperior a:hover{
     float: right;
     background-color: #fff;
     width: 80%;
-    height: auto;
+    height: 100%;
     padding: 20px;
 }
 form{
@@ -201,7 +201,7 @@ input, textarea{
 /*Fin main*/
 /*Inicio footer*/
 footer{
-    width: 95%;
+    width: 100%;
 	margin: auto;
 	height: auto;
 	background-color: #e8e8e8;
